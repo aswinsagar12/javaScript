@@ -30,11 +30,11 @@ console.log(Student.prototype.addStudent);
 var std = new Student("Aswin", "12th", 20);
 console.log(std);
 
-std.print("Datas");
+std.print("Data");
 std.update("Aswin Sagar");
 std.get();
 Student.prototype.delete = function(value) {
 
-    console.log("Deleting " + this.name + " datas");
+    console.log("Deleting " + this.name + " data");
 }
 std.delete("name");
